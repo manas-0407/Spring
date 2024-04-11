@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="examlpe7" target="17" />
+      <module name="example1" target="18" />
+      <module name="example2" target="18" />
+      <module name="example3" target="18" />
+      <module name="example4" target="18" />
+      <module name="example5" target="18" />
+      <module name="example6" target="18" />
+      <module name="exampleX" target="18" />
+      <module name="ProjectWeb" target="17" />
+      <module name="ProjectWebBeanScope" target="17" />
+      <module name="ProjectWebDB" target="17" />
+      <module name="ProjectWebJPA" target="17" />
+      <module name="ProjectWebJPA (1)" target="17" />
+      <module name="ProjectWebPathParams" target="17" />
+      <module name="ProjectWebQueryParam" target="17" />
+      <module name="ProjectWebSecurity" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ProjectWeb" options="-parameters" />
+      <module name="ProjectWebBeanScope" options="-parameters" />
+      <module name="ProjectWebDB" options="-parameters" />
+      <module name="ProjectWebJPA" options="-parameters" />
+      <module name="ProjectWebJPA (1)" options="-parameters" />
+      <module name="ProjectWebPathParams" options="-parameters" />
+      <module name="ProjectWebQueryParam" options="-parameters" />
+      <module name="ProjectWebSecurity" options="-parameters" />
+      <module name="examlpe7" options="-parameters" />
+    </option>
+  </component>
+</project>
